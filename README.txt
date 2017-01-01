@@ -2,7 +2,9 @@
 
 Created by: Carlos L Sanchez Vila
 Date: 09/05/2016
-
+The following c Program converts temperatures from Celsius to Fahrenheit
+using the basic well known conversion formulas.
+More on this topic can be seen here: https://en.wikipedia.org/wiki/Fahrenheit
 	Instructions:
 1. Move tempConverter.c file to a directory of your choice.
 2. Move in the terminal to the directory where tempComverter.c is located
