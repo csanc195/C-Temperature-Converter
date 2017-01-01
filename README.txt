@@ -1,7 +1,6 @@
-# C-Temperature-Converter
-A simple program written in C that converts temperature from Celsius to Fahrenheit.
 
-Created by: Carlos L Sanchez Vila #5446178
+
+Created by: Carlos L Sanchez Vila
 Date: 09/05/2016
 
 	Instructions:
