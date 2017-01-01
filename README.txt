@@ -1,7 +1,6 @@
 
 
-Created by: Carlos L Sanchez Vila #5446178
-Instructor: William Fields Jr. Prog III
+Created by: Carlos L Sanchez Vila
 Date: 09/05/2016
 
 	Instructions:
