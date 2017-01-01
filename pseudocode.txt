@@ -1,0 +1,44 @@
+	
+	The program "tempConverter" creates a temperature table with two columns 
+showing a celsius to fahrenheit and a fahrenheit to celsius conversion.
+Both tables start at value 20.0 and display the corresponding conversion to 
+the right hand side. The temperature value starts at 20.0 and increases from
+one row to the other by a variable magnitude which is entered by the user, the program stops printing conversions when the temperatures reach the value 280.0 as requested and specified in the original proposal. 
+This is the only variable link in the program. The main functionality of the 
+program can be described by the following pseudo code.
+
+Logic program execution:
+
+INITIALIZE CONSTANTS:
+LOW_VALUE_TEMP
+HIGH_VALUE_TEMP
+...
+	//Prompt for user’s imput
+	PRINT: Enter a single digit from 1 to 9:
+
+	//Validate the user’s input 
+	EXECUTE: validate_user_imput(){
+
+			GET: The user’s input.
+
+			IF:(user’s imput is not valid)
+				EXECUTE: validate_user_imput()
+			ELSE
+				imput is valid digit from 1 to 9
+				CONTINUE.
+		}
+	//Print the table using the official conversion formulas
+	EXECUTE: print_table_data() {
+		INITIALIZE
+			meter = LOW_VALUE_TEMP
+
+		REPEAT
+			PRINT (meter + JUMP, fahrenheit_to_celcius(meter))
+			PRINT (meter + JUMP, celsius_to_fahrenheit(meter))
+			INCREMENT meter BY 1
+		WHILE 
+			meter <= HIGH_VALUE_TEMP
+	}
+	END
+
+
