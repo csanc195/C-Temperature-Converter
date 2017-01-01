@@ -3,7 +3,8 @@
 showing a celsius to fahrenheit and a fahrenheit to celsius conversion.
 Both tables start at value 20.0 and display the corresponding conversion to 
 the right hand side. The temperature value starts at 20.0 and increases from
-one row to the other by a variable magnitude which is entered by the user, the program stops printing conversions when the temperatures reach the value 280.0 as requested and specified in the original proposal. 
+one row to the other by a variable magnitude which is entered by the user, the program 
+stops printing conversions when the temperatures reach the value 280.0.
 This is the only variable link in the program. The main functionality of the 
 program can be described by the following pseudo code.
 
@@ -13,15 +14,15 @@ INITIALIZE CONSTANTS:
 LOW_VALUE_TEMP
 HIGH_VALUE_TEMP
 ...
-	//Prompt for userﾕs imput
+	//Prompt for userﾃ不 imput
 	PRINT: Enter a single digit from 1 to 9:
 
-	//Validate the userﾕs input 
+	//Validate the userﾃ不 input 
 	EXECUTE: validate_user_imput(){
 
-			GET: The userﾕs input.
+			GET: The userﾃ不 input.
 
-			IF:(userﾕs imput is not valid)
+			IF:(userﾃ不 imput is not valid)
 				EXECUTE: validate_user_imput()
 			ELSE
 				imput is valid digit from 1 to 9
